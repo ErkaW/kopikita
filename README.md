@@ -1,2 +1,2 @@
 # kopikita
-Simulasi kasir kopikita
+Simulasi kasir kopikita menggunakan C++ 
