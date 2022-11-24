@@ -108,7 +108,6 @@ void headernota(){
     cout << "--------------------------------------" << endl;
 }
 void footernota(){
-    //cout dengan "[Hehe, not bad] ~Alucard"
     cout << "======================================" << endl;
     cout << "       [Hehe, not bad] ~Alucard       " << endl;
     cout << "======================================" << endl;
@@ -118,7 +117,6 @@ void customer(){
     cin >> pelanggan;
 }
 void pembelian(){
-    // pembelian tetapi jika salah id maka akan diulang
     int id, banyak;
     string pilihan;
     int idTerakhir = banyakPilihan();
@@ -142,7 +140,6 @@ void pembelian(){
         cin >> pilihan;
     }while(pilihan == "y");
 }
-// hapus keranjang jika barang 0
 void hapusKeranjang(){
     for (int i = 1; i <= banyakPilihan(); i++){
         if (keranjang[i] == 0){
