@@ -27,8 +27,7 @@ void waktu(){
     cout << "Waktu   : " << jam << ":" << menit << ":" << detik << endl;
 }
 void tunggu(){
-    cout << "Tekan enter untuk melanjutkan...";
-    cin.get();
+    system("pause");
 }
 void clear(){
     system("cls");
